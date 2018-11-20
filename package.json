@@ -126,5 +126,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "homepage":"https://bnmghjtyu0.github.io/react-book/"
 }
