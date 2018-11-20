@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TableComponent from './component/table'
-import Aux from './utils/Aux'
+import Aux from './utils/aux'
 
 class App extends Component {
   constructor(props) {
