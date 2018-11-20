@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.0c12fc1f.chunk.css",
-  "main.js": "/static/js/main.6853b1e2.chunk.js",
-  "main.js.map": "/static/js/main.6853b1e2.chunk.js.map",
-  "static/js/1.9681de28.chunk.js": "/static/js/1.9681de28.chunk.js",
-  "static/js/1.9681de28.chunk.js.map": "/static/js/1.9681de28.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
-  "static/css/main.0c12fc1f.chunk.css.map": "/static/css/main.0c12fc1f.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.82e62013919d38ee0e3a53ec0d30a025.js": "/precache-manifest.82e62013919d38ee0e3a53ec0d30a025.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/react-book/static/css/main.0c12fc1f.chunk.css",
+  "main.js": "/react-book/static/js/main.4d76abd5.chunk.js",
+  "main.js.map": "/react-book/static/js/main.4d76abd5.chunk.js.map",
+  "static/js/1.9681de28.chunk.js": "/react-book/static/js/1.9681de28.chunk.js",
+  "static/js/1.9681de28.chunk.js.map": "/react-book/static/js/1.9681de28.chunk.js.map",
+  "runtime~main.js": "/react-book/static/js/runtime~main.80a24960.js",
+  "runtime~main.js.map": "/react-book/static/js/runtime~main.80a24960.js.map",
+  "static/media/logo.svg": "/react-book/static/media/logo.ee7cd8ed.svg",
+  "static/css/main.0c12fc1f.chunk.css.map": "/react-book/static/css/main.0c12fc1f.chunk.css.map",
+  "index.html": "/react-book/index.html",
+  "precache-manifest.508233a0664167105c95c43446ef6e05.js": "/react-book/precache-manifest.508233a0664167105c95c43446ef6e05.js",
+  "service-worker.js": "/react-book/service-worker.js"
 }
