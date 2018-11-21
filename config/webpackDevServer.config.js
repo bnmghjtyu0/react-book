@@ -11,8 +11,11 @@ const fs = require('fs');
 const protocol = process.env.HTTPS === 'true' ? 'https' : 'http';
 const host = process.env.HOST || '0.0.0.0';
 
-module.exports = function(proxy, allowedHost) {
+module.exports = function (proxy, allowedHost) {
   return {
+    headers: {
+      'X-Custom-Foo': 'bar'
+    },
     // WebpackDevServer 2.4.3 introduced a security fix that prevents remote
     // websites from potentially accessing local content through DNS rebinding:
     // https://github.com/webpack/webpack-dev-server/issues/887
@@ -59,6 +62,7 @@ module.exports = function(proxy, allowedHost) {
     // in the Webpack development configuration. Note that only changes
     // to CSS are currently hot reloaded. JS changes will refresh the browser.
     hot: true,
+    port: 9000,
     // It is important to tell WebpackDevServer to use the same "root" path
     // as we specified in the config. In development, we always serve from /.
     publicPath: config.output.publicPath,
